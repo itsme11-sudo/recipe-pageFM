@@ -21,18 +21,23 @@ html {
 
 body {
   background-color: hsl(30, 54%, 90%);
-  padding: 100px 300px;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 .container {
   background-color: hsl(0, 0%, 100%);
-  width: 600px;
+  width: 730px;
   border-radius: 18px;
 }
 
 .main-header .img-holder {
   padding: 24px;
-  width: 600px;
+  width: 730px;
 }
 
 .main-header .img-holder img {
@@ -44,11 +49,11 @@ body {
   padding: 0 24px;
   font-family: young-serif;
   font-weight: 400;
-  font-size: 3.2rem;
+  font-size: 3.9rem;
 }
 
 .main-header .desc-omelette {
   font-family: outfit;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   padding: 24px;
 }
