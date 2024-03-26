@@ -70,6 +70,7 @@ h2 {
   font-family: outfit;
   font-size: 1.7rem;
   padding: 2.4rem;
+  color: #616161;
 }
 
 /* prepartion section */
@@ -97,6 +98,7 @@ h2 {
   font-size: 1.6rem;
   margin: 1rem;
   padding-left: 14px;
+  color: #616161;
 }
 
 .preparation ul li::marker {
@@ -116,6 +118,7 @@ h2 {
   font-size: 1.6rem;
   margin: 1.4rem 1rem;
   padding-left: 14px;
+  color: #616161;
 }
 
 .ingredients ul li::marker,
@@ -141,6 +144,7 @@ hr {
   font-size: 1.6rem;
   margin: 1.4rem 1rem;
   padding-left: 14px;
+  color: #616161;
 }
 
 /* nutrition */
@@ -150,6 +154,7 @@ hr {
   font-family: outfit;
   font-size: 1.6rem;
   font-weight: 400;
+  color: #616161;
 }
 
 table {
@@ -164,6 +169,7 @@ th {
   text-align: left;
   padding: 1rem 2.8rem;
   width: 50%;
+  color: #616161;
 }
 
 td {
@@ -181,6 +187,8 @@ tr:last-child {
 
 @media screen and (max-width: 709px) {
   main {
+    display: block;
+    width: 100vw;
     padding: 0;
     margin: 0;
   }
