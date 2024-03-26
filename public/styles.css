@@ -1,0 +1,54 @@
+/* 400, 600 ,700 */
+@font-face {
+  font-family: outfit;
+  src: url(./fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+/* 400 */
+@font-face {
+  font-family: young-serif;
+  src: url(./fonts/young-serif/YoungSerif-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 66.5%;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  padding: 100px 300px;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  width: 600px;
+  border-radius: 18px;
+}
+
+.main-header .img-holder {
+  padding: 24px;
+  width: 600px;
+}
+
+.main-header .img-holder img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.main-header h1 {
+  padding: 0 24px;
+  font-family: young-serif;
+  font-weight: 400;
+  font-size: 3.2rem;
+}
+
+.main-header .desc-omelette {
+  font-family: outfit;
+  font-size: 1.3rem;
+  padding: 24px;
+}
