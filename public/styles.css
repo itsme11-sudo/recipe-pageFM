@@ -181,8 +181,6 @@ tr:last-child {
 
 @media screen and (max-width: 709px) {
   main {
-    display: block;
-    width: 100vw;
     padding: 0;
     margin: 0;
   }
@@ -203,13 +201,6 @@ tr:last-child {
     padding: 0;
     width: 100%;
     border-radius: 0;
-  }
-
-  .preparation,
-  .ingredients,
-  .instructions,
-  .nutrition {
-    flex: 1 1 auto;
   }
 }
 
@@ -239,22 +230,14 @@ tr:last-child {
   .main-header h1 {
     font-size: 3rem;
   }
-  /* .preparation,
-  .ingredients,
-  .instructions,
-  .nutrition {
-    width: auto;
-  } */
 }
 
 @media screen and (max-width: 240px) {
   .container .preparation ul {
     font-size: 0.8rem;
-    /* padding: 0.3rem; */
   }
 
   .container .preparation .prep--list li {
-    /* background-color: green; */
     padding-left: 0;
   }
 
