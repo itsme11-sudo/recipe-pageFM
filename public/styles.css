@@ -141,3 +141,39 @@ hr {
   margin: 1.4rem 1rem;
   padding-left: 14px;
 }
+
+/* nutrition */
+
+.nutrition p {
+  margin: 2rem 0;
+  font-family: outfit;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 1.6rem;
+  font-family: outfit;
+  width: 100%;
+}
+
+th {
+  font-weight: normal;
+  text-align: left;
+  padding: 1rem 2.8rem;
+  width: 50%;
+}
+
+td {
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
+
+tr {
+  border-bottom: 1px solid;
+}
+
+tr:last-child {
+  border: none;
+}
