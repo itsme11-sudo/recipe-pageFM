@@ -16,7 +16,7 @@
 }
 
 html {
-  font-size: 66.5%;
+  font-size: 62.5%;
 }
 
 body {
@@ -46,14 +46,42 @@ main {
 }
 
 .main-header h1 {
-  padding: 0 24px;
+  padding: 0 2.4rem;
   font-family: young-serif;
   font-weight: 400;
-  font-size: 3.9rem;
+  font-size: 4.2rem;
 }
 
 .main-header .desc-omelette {
   font-family: outfit;
+  font-size: 1.7rem;
+  padding: 2.4rem;
+}
+
+/* prepartion section */
+
+.preparation {
+  background-color: hsl(330, 100%, 98%);
+  margin: 0 2.4rem 2.4rem;
+  padding: 1.6rem;
+  font-family: outfit;
+  border-radius: 10px;
+}
+
+.preparation h4 {
+  color: hsl(332, 51%, 32%);
+  font-weight: 600;
+  font-size: 1.9rem;
+}
+
+.preparation ul {
+  margin: 1.6rem;
+  font-weight: 400;
+  list-style: disc;
+}
+
+.preparation ul li {
   font-size: 1.6rem;
-  padding: 24px;
+  margin: 1rem;
+  padding-left: 14px;
 }
